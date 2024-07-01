@@ -6,4 +6,5 @@
 
 ### Instructions
 
-Clone repo then run `npm install` and `npm run dev`
+- Clone repo then run `npm install` and `npm run dev`
+- Visit `http://localhost:5173/`
