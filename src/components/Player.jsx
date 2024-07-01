@@ -29,7 +29,7 @@ export default function Player({ name, symbol, isActive, onChangeName }) {
   }
 
   return (
-    <li className={isActive ? "active" : undefined}>
+    <li className={(isActive ? "active " : undefined) + "flex"}>
       <span className="player">
         {editablePlayerName}
         <span className="player-symbol">{symbol}</span>
