@@ -4,18 +4,7 @@ import GameBoard from "./components/GameBoard";
 import Log from "./components/Log";
 import GameOver from "./components/GameOver";
 import "./index.css";
-import { WINNING_COMBINATIONS } from "./combinations";
-
-const PLAYERS = {
-  X: "Player 1",
-  O: "Player 2",
-};
-
-const INITIAL_GAME_BOARD = [
-  [null, null, null],
-  [null, null, null],
-  [null, null, null],
-];
+import { PLAYERS, INITIAL_GAME_BOARD, WINNING_COMBINATIONS } from "./constants";
 
 function deriveActivePlayer(gameTurns) {
   let currentPlayer = "X";
