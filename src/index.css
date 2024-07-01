@@ -370,4 +370,8 @@ ol {
     flex-direction: column;
     align-items: center;
   }
+
+  .sm-hidden {
+    display: none;
+  }
 }
